@@ -1,0 +1,25 @@
+{
+  "name": "PersonalProject",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {},
+  "jsEngine": "jsc",
+  "dependencies": {
+    "@react-native-firebase/auth": "^18.5.0",
+    "@react-navigation/native": "^6.1.8",
+    "@react-navigation/stack": "^6.3.18",
+    "expo": "^49.0.13",
+    "firebase": "^10.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.72.5",
+    "react-native-gesture-handler": "^2.13.2",
+    "react-native-reanimated": "^3.5.4",
+    "react-native-web": "~0.19.6",
+    "@expo/webpack-config": "^19.0.0"
+  },
+  "scripts": {
+    "start": "expo start --engine hermes"
+  },
+  "hermesEnabled": true
+}
