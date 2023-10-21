@@ -21,8 +21,6 @@ const LikeScreen = ({ route }) => {
           <Text style={styles.headerStyle}>Like List</Text>
           {likeList.map((item) => (
             item ? (
-              // 'key' prop을 가장 바깥쪽 요소에 추가합니다. 여기서는 'item.id'를 key로 사용하고 있습니다.
-              // 'item.id'는 각 아이템이 고유해야 하며, 데이터 세트에서 고유 식별자로 기능해야 합니다.
               <View key={item.id} style={styles.subViewStyle}> 
                 <Text style={styles.titleStyle}>{item.title}</Text> 
                 <Text style={styles.hyphenStyle}> - </Text> 
