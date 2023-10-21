@@ -1,7 +1,5 @@
 import { createStackNavigator } from '@react-navigation/stack';
-import {View, Text, TouchableOpacity} from 'react-native'
 import HomeScreen from '../Screen/HomeScreen'
-import LoginScreen from '../Screen/LoginScreen';
 import LikeScreen from '../Screen/LikeScreen';
 
 const Stack = createStackNavigator();

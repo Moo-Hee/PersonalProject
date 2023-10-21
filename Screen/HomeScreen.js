@@ -109,6 +109,12 @@ const HomeScreen = ({route}) => {
     position.setValue({ x: 0, y: 0 });
     
     setCurrentIndex((prevIndex) => prevIndex + 1);
+
+    if (direction === 'left') {
+      
+      setLikeIndex((prevIndex) => prevIndex + 1);
+
+    }
     
   };
 
